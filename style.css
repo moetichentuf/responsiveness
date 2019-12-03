@@ -1,0 +1,91 @@
+
+@media only screen and (max-width:  300px){
+
+    body{
+
+        background-color: red;
+
+    }
+
+}
+
+@media only screen and (min-width:  301px ) and (max-width: 768px){
+
+    body{
+
+        background-color: green;
+
+    }
+
+}
+
+@media only screen and (min-width:  769px) {
+
+    body{
+
+        background-color: blue;
+
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width:  300px) {
+   #medium, #large {
+
+
+    }
+}
+
+
+
+
+@media only screen and (min-width:  301px ) and (max-width: 768px) {
+    #large, #small{
+
+
+
+        width: 200px;
+        height: auto;
+
+        margin: 10px;
+    }
+}
+
+
+
+@media only screen and (min-width:  769px) {
+    #small, #medium {
+
+
+        width: 100px;
+        height: auto;
+
+    }
+}
+
+#large{
+
+
+    border: 2px solid black;
+    margin: 5px;
+
+
+}
+
+#medium{
+
+    border: 2px solid black;
+    margin: 5px;
+
+
+}
+
+#small{
+    border: 2px solid black;
+    margin: 5px;
+
+}
